@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.nav-link {
+  padding: 8px 24px !important;
+}
+
+.nav-item a {
+  color: #ffc107;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+/* Top-Section */
+.b-icon {
+  color: black;
+  font-size: 1.7rem;
+  padding: 0 8px;
+}
+
+.recent-projects {
+  border: 1.6px solid black;
+}
+
+/* Recent-projects section */
+.project-box {
+  background-color: white;
+}
+
+.project-box-link{
+  text-decoration: none;
+}
+
+#project-box-row {
+  display: flex;
+  flex-direction: row;
+}
+/* Recent-projects section end */
+
+/* My skils section */
+.skills-icons{
+  font-size: 38px;
+}
+/* My skils section end */
+
+/* Contact Me Section */
+form .form-control {
+  border-radius: 0;
+}
+
+form .form-control:focus {
+  box-shadow: none;
+  border-color: rgb(97, 93, 93);
+}
+
+/* footer section */
+footer .footer-links a,
+footer .social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .social-icons a {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer .footer-links a {
+  display: block;
+  color: white;
+  font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: #ffc107;
+}
+/* footer section end*/
+
+/* Responsive section */
+@media screen and (min-width: 768px){
+  #img-div img{
+    margin-top: 52px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #img-div img{
+    margin-top: 52px;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: column;
+  }
+}
